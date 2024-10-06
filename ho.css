@@ -1,0 +1,144 @@
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+nav{
+  width: 100%;
+  height: 3rem;
+  background-color: blueviolet;
+}
+.nav_logo{
+  color: aliceblue;
+  line-height: 50px;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 0 20px;
+
+}  
+nav ul{
+  float: right;
+  margin-right: 20px;
+
+}
+nav ul li{
+  display: inline-block;
+  line-height: 50px;
+  margin: 0  5px;
+
+}
+nav ul li a{
+  color: aliceblue;
+  font-weight: bold;
+  padding: 5px;
+}
+nav ul li a.active,a:hover{
+  background-color: rgb(97, 35, 155);
+}
+nav #check{
+  display: none;
+}
+nav .checkbtn{
+  display: none;
+  float:right;
+  line-height: 50px;
+  margin: 0 30px;
+  color: aliceblue;
+  font-size: x-large;
+  cursor: pointer;
+}
+nav .checkbt{
+  display: none;
+  line-height: 50px;
+  margin: 0 30px;
+  color: aliceblue;
+  font-size: x-large;
+  cursor: pointer;}
+
+nav ul li  .button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+@media (max-width:888px) {
+
+  nav ul li a.active{
+      nav-left: 122px;
+  }
+  nav .checkbtn{
+  display: block;
+}   
+nav ul .checkbt{
+ display: block; 
+}
+nav ul {
+  background-color: rgb(173, 93, 248);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 3rem;
+  left: 100%;
+  transition: 0.5s;
+
+}
+nav ul li{
+  display: block;
+  text-align: center;
+  line-height: 4rem;
+}
+#check:checked~#ul{
+  left: 0;
+  transition: 0.5s;
+}
+}
+@media (max-width:300px) {
+  .nav_logo{
+      font-size: 20px;
+  }
+}
+.section1{
+  background-color:yellow ;
+  width: 100%;
+  height: 92vh;
+  overflow: hidden;
+  
+}
+.section2{
+  background-color:yellow ;
+  width: 100%;
+  height: 92vh;
+  overflow: hidden;
+  
+}
+.section3{
+  background-color:yellow ;
+  width: 100%;
+  height: 92vh;
+  overflow: hidden;
+  
+}
